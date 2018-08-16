@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>糖果淘 - 全球首个购物挖矿电商平台</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name = "format-detection" content = "telephone=no">
+    <link rel="stylesheet" href="mjs/swiper.min.css"/>
+    <link rel="stylesheet" href="m/style.css?v=2"/>
+</head>
+<body>
+    <div class="ui-container">
+        <div class="menu wow">
+            <ul>
+                <li class="clr" onclick="closed('')"><img src="m/close.png" id="close" class="fr" alt="关闭"/></li>
+                <li data-id="index" onclick="closed('index')"><a class="on">首页</a></li>
+                <li data-id="app" onclick="closed('app')"><a>应用</a></li>
+                <li data-id="rule" onclick="closed('rule')"><a>代币生态</a></li>
+                <li data-id="download" onclick="closed('download')"><a>下载</a></li>
+                <li data-id="team" onclick="closed('team')"><a>团队</a></li>
+                <li data-id="partner" onclick="closed('partner')"><a>合作</a></li>
+                <li data-id="progress" onclick="closed('progress')"><a>发展</a></li>
+                <li><a href="http://tangguotao.mikecrm.com/3qbqDQu">私募登记</a></li>
+            </ul>
+        </div>
+        <div class="top-bg pr">
+            <div class="header clr" onclick="menu()">
+                <img src="m/logo.png" class="fl img1 wow fadeInDown" style="-webkit-animation-delay:0.4s;" alt="糖果淘logo"/>
+                <img src="m/nav.png" class="fr img2 wow fadeInDown" style="-webkit-animation-delay:0.6s;" id="menu" alt="菜单"/>
+            </div>
+            <div class="index" id="index">
+                <img src="m/index1.png" class="img1 wow fadeInDown" style="-webkit-animation-delay:0.5s;" alt=""/>
+                <div class="clr">
+                    <img src="m/index2.png" class="img2 fr wow fadeInRight" style="-webkit-animation-delay:0.7s;" alt=""/>
+                </div>
+                <a onmouseout="hidPict('oImg')" onmousemove="showPict('oImg')" class="apped btn wow fadeIn" style="-webkit-animation-delay:0.8s;" >加入社群</a>
+                <a href="http://www.tcandy.io/pdf/web/viewer.html" class="paper btn wow fadeIn" style="-webkit-animation-delay:1s;" href="">白皮书</a>
+                <img id="app" src="m/phone.png" class="pa wow fadeInRight" style="-webkit-animation-delay:0.1s;" alt="糖果淘APP效果展示"/>
+            </div>
+            <img src='m/wechat.jpg' id="oImg" style='display:none; position:absolute; left:27%; top:33%;' width="160px" hight="200px">
+        </div>
+        <div class="app">
+            <div class="slide pr">
+                <div class="btn3 prev disabled wow fadeIn" style="-webkit-animation-delay:0.1s;" onclick="prev()"></div>
+                <div class="swiper-container" id="apps">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide apps on wow fadeIn" style="-webkit-animation-delay:0.2s;" id="app1" data-title="一站式导购" data-desc="平台已对接淘宝、京东、拼多多等国内大型电商平台，通过糖果淘即可一键直达购物！"></div>
+                        <div class="swiper-slide apps wow fadeIn" style="-webkit-animation-delay:0.3s;" id="app2" data-title="购物更省钱" data-desc="通过糖果淘平台可领取到淘宝、天猫、京东、拼多多等电商平台的独家内部购物券，购物更省钱！"></div>
+                        <div class="swiper-slide apps wow fadeIn" style="-webkit-animation-delay:0.4s;" id="app3" data-title="便捷搜索" data-desc="一键全网搜索商品，多平台对比，帮你找到性价比最高的商品！"></div>
+                        <div class="swiper-slide apps" id="app4" data-title="个人中心" data-desc="钱包明细、订单明细、团队明细等信息一目了然！"></div>
+                        <div class="swiper-slide apps" id="app5" data-title="邀请好友" data-desc="好东西分享给朋友，获得购买力加成，加速购物挖矿产出！"></div>
+                        <div class="swiper-slide apps" id="app6"></div>
+                        <div class="swiper-slide apps" id="app7"></div>
+                    </div>
+                    <div class="swiper-button-next next1"></div>
+                    <div class="swiper-button-prev prev1"></div>
+                </div>
+                <div class="btn3 next wow fadeIn" style="-webkit-animation-delay:0.5s;" onclick="next()"></div>
+            </div>
+            <div class="detail wow fadeInUp" style="-webkit-animation-delay:0.6s;">
+                <h3>一站式导购</h3>
+                <span>平台已对接淘宝、京东、拼多多等国内大型电商平台，通过糖果淘即可一键直达购物！</span>
+            </div>
+        </div>
+        <div class="rule rule1" id="rule">
+            <div class="title clr">
+                <h3 class="fl">购物即挖矿</h3>
+                <img src="m/righton.png" class="fl"/>
+            </div>
+            <div class="desc">
+                <div class="clr">
+                    <div class="item mgt clr">
+                        <img src="m/app6.png" class="wow fadeInLeft" style="-webkit-animation-delay:0.1s;" alt="购物挖矿"/>
+                        <div class="fr cnt wow fadeInRight" style="-webkit-animation-delay:0.2s;">
+                            <h3 class="npd">购物挖矿</h3>
+                            <p>通过糖果淘到淘宝、天猫、京东、拼多多等电商平台购物即可参与挖矿，获得Tcandy奖励！</p>
+                        </div>
+                    </div>
+                    <div class="item mgt clr">
+                        <img src="m/app7.png" class="wow fadeInLeft" style="-webkit-animation-delay:0.2s;" alt="分享挖矿"/>
+                        <div class="fr cnt wow fadeInRight" style="-webkit-animation-delay:0.3s;">
+                            <h3>分享挖矿</h3>
+                            <p>发现不错的商品，分享给朋友，一起共享购物挖矿的乐趣！</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clr">
+                    <div class="item clr">
+                        <img src="m/app8.png" class="wow fadeInLeft" style="-webkit-animation-delay:0.3s;" alt="邀请挖矿"/>
+                        <div class="fr cnt wow fadeInRight" style="-webkit-animation-delay:0.4s;">
+                            <h3>邀请挖矿</h3>
+                            <p>邀请新用户参与购物挖矿，邀请人也可以获得Tcandy奖励！</p>
+                        </div>
+                    </div>
+                    <div class="item clr">
+                        <img src="m/app9.png" class="wow fadeInLeft" style="-webkit-animation-delay:0.4s;" alt="忠诚奖励"/>
+                        <div class="fr cnt wow fadeInRight" style="-webkit-animation-delay:0.5s;">
+                            <h3>忠诚奖励</h3>
+                            <p>对于平台有贡献的用户，我们都会给予Tcandy激励！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rule rule1 rule2">
+            <div class="title clr">
+                <h3 class="fl">代币分配</h3>
+                <img src="m/righton.png" class="fl"/>
+            </div>
+            <img src="m/rule1.png" class="img1 wow fadeInLeft" style="-webkit-animation-delay:0.1s;"/>
+            <p class="wow fadeInRight" style="-webkit-animation-delay:0.2s;">糖果淘官方代币为Tcandy，是通过以太坊Ethereum的ERC20标准发行的代币，总量为600亿
+                枚，数量恒定！其中51%会通过购物挖矿产出，团队持15%，发展基金15%，私募10%，剩余
+                的9%将用于糖果淘整体的市场运营及发展！</p>
+        </div>
+        <div class="rule rule1 rule2">
+            <div class="title clr">
+                <h3 class="fl">共识机制</h3>
+                <img src="m/righton.png" class="fl"/>
+            </div>
+            <img src="m/rule2.png" class="img2 wow fadeInRight" style="-webkit-animation-delay:0.1s;"/>
+            <p class="wow fadeInLeft" style="-webkit-animation-delay:0.2s;">购买力证明机制（Proof of Purchase - PoP）：简单理解就是一份证明，用来确认购买行为。
+                必须进行购买才能将交易数据存放到区块链上。这种工作机制才能保证整个区块链数据的安全
+                性和一致性。同时，完成这个行为的矿工会得到相应的Token奖励。</p>
+        </div>
+        <div class="center-bg pr">
+            <div class="download" id="download">
+                <img src="m/phone2.png" class="pa wow fadeInRight" style="-webkit-animation-delay:0.1s;" alt="糖果淘DAPP"/>
+                <h2 class="wow fadeInLeft" style="-webkit-animation-delay:0.3s;">下载糖果淘DAPP</h2>
+                <h5 class="wow fadeInRight" style="-webkit-animation-delay:0.4s;">糖果淘内测已结束，让我们一起期待9月的全球公测吧！</h5>
+                <div class="clr" id="team">
+                    <a  class="fl btn2 ios wow fadeIn" style="-webkit-animation-delay:0.5s;">敬请期待</a>
+                    <a  class="fr btn2 android wow fadeIn" style="-webkit-animation-delay:0.6s;">9月中旬上线</a>
+                </div>
+            </div>
+            <div class="team">
+                <div class="title btn4">团队/顾问</div>
+                <div class="swiper-container" id="teams">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide teams wow fadeIn" style="-webkit-animation-delay:0.1s;">
+                            <img src="m/team1.png" alt="CEO/CO-FOUNDER"/>
+                            <div class="name">张斌</div>
+                            <div class="pos">CEO/CO-FOUNDER</div>
+                        </div>
+                        <div class="swiper-slide teams wow fadeIn" style="-webkit-animation-delay:0.2s;">
+                            <img src="m/team2.png" alt="CTO/CO-FOUNDER"/>
+                            <div class="name">冯涛</div>
+                            <div class="pos">CTO/CO-FOUNDER</div>
+                        </div>
+                        <div class="swiper-slide teams">
+                            <img src="m/team3.png" alt="COO/CO-FOUNDER"/>
+                            <div class="name">张宇波</div>
+                            <div class="pos">COO/CO-FOUNDER</div>
+                        </div>
+                        <div class="swiper-slide teams">
+                            <img src="m/team4.png" alt="CO-FOUNDER"/>
+                            <div class="name">LUCAS LU</div>
+                            <div class="pos">顾问</div>
+                        </div>
+                        <div class="swiper-slide teams">
+                            <img src="m/team5.png" alt="CO-FOUNDER"/>
+                            <div class="name">MICHAEL YUAN</div>
+                            <div class="pos">顾问</div>
+                        </div>
+                        <div class="swiper-slide teams">
+                            <img src="m/team6.png" alt="COO/CO-FOUNDER"/>
+                            <div class="name">翟飞</div>
+                            <div class="pos">顾问</div>
+                        </div>
+                        <div class="swiper-slide teams">
+                            <img src="m/team7.png" alt="CO-FOUNDER"/>
+                            <div class="name">刘奇峰</div>
+                            <div class="pos">顾问</div>
+                        </div>
+                        <div class="swiper-slide teams">
+                            <img src="m/team8.png" alt="CO-FOUNDER"/>
+                            <div class="name">张屹豪</div>
+                            <div class="pos">代币经济顾问</div>
+                        </div>
+                        <div class="swiper-slide none"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination pagin2"></div>
+            </div>
+        </div>
+        <div class="rule rule2 rule3">
+            <div class="title clr">
+                <h3 class="fl">购物挖矿机制</h3>
+                <img src="m/righton.png" class="fl"/>
+            </div>
+            <img src="m/rule3.png" class="img3 wow fadeInLeft" style="-webkit-animation-delay:0.1s;"/>
+            <p id="partner" class="wow fadeInRight" style="-webkit-animation-delay:0.2s;">代币购物挖矿占比51%，团队自设计之初便将更多的权利和通证凭证交给参与生态和对生态作
+                出贡献的每一位参与者。购物挖矿代币总量约306亿枚，创世日挖矿量2000万枚，全网每3个
+                月6%的挖矿衰减率，预计可挖23年！</p>
+        </div>
+        <div class="partner">
+            <div class="title btn4">合作伙伴</div>
+            <ul class="clr">
+                <li>
+                    <img src="m/partner1.png" class="img1 wow fadeIn" style="-webkit-animation-delay:0.1s;" alt="hayek"/>
+                </li>
+                <li>
+                    <img src="m/partner2.png" class="img2 wow fadeIn" style="-webkit-animation-delay:0.2s;" alt="kpypital"/>
+                </li>
+            </ul>
+            <ul class="clr">
+                <li>
+                    <img src="m/partner3.png" class="img3 wow fadeIn" style="-webkit-animation-delay:0.3s;" alt="rfinex"/>
+                </li>
+                <li>
+                    <img src="m/partner4.png" class="img4 wow fadeIn" style="-webkit-animation-delay:0.4s;" alt="alpview capital"/>
+                </li>
+            </ul>
+        </div>
+        <div class="bottom-bg">
+            <div class="location">
+                <h1>定位与愿景</h1>
+                <p class="wow fadeIn" style="-webkit-animation-delay:0.1s;">打造全新的电商生态系统，激励每个人参与其中！以区块链技术的力量推动零售商业迈入消费主权时代，打破互联网
+                    寡头对数据，对消费资源，消费资产的垄断，帮助数据、资源生产者（商家／消费者）获得对数据、资源的所有权、
+                    使用权和获利权。糖果淘是全球首家基于区块链技术的电商数据与token奖励聚合网络，以先进的数据加密和区块链智
+                    能合约技术帮助消费者获得个人消费数据的所有权，控制权和收益权，实现商家，消费者和品牌商的共赢合作。
+            </div>
+            <div class="progress" id="progress">
+                <div class="title btn4">发展历程及规划</div>
+                <ul>
+                    <li class="clr">
+                        <div class="fl wow fadeIn" style="-webkit-animation-delay:0.1s;">2017.8<br/>项目概念提出</div>
+                        <div class="fr wow fadeIn" style="-webkit-animation-delay:0.1s;">创世团队组建完成并确定糖果淘平台概念原型</div>
+                    </li>
+                    <li class="clr">
+                        <div class="fl wow fadeIn" style="-webkit-animation-delay:0.2s;">2017.10<br/>完成产品原型设计</div>
+                        <div class="fr wow fadeIn" style="-webkit-animation-delay:0.2s;">设计出糖果淘1.0版本原型，并开始投入开发</div>
+                    </li>
+                    <li class="clr">
+                        <div class="fl wow fadeIn" style="-webkit-animation-delay:0.3s;">2018.4<br/>完成产品开发</div>
+                        <div class="fr wow fadeIn" style="-webkit-animation-delay:0.3s;">完成糖果淘1.0版本的研发工作</div>
+                    </li>
+                    <li class="clr">
+                        <div class="fl wow fadeIn" style="-webkit-animation-delay:0.4s;">2018.7<br/>获得基石投资</div>
+                        <div class="fr wow fadeIn" style="-webkit-animation-delay:0.4s;">成功获得Venture Miles的基石投资</div>
+                    </li>
+                    <li class="clr">
+                        <div class="fl wow fadeIn" style="-webkit-animation-delay:0.5s;">2018.8<br/>完成私募</div>
+                        <div class="fr wow fadeIn" style="-webkit-animation-delay:0.5s;">2018.8.20前完成私募，并发布白皮书</div>
+                    </li>
+                    <li class="clr">
+                        <div class="fl wow fadeIn" style="-webkit-animation-delay:0.6s;">2018.9<br/>糖果淘全球公测</div>
+                        <div class="fr wow fadeIn" style="-webkit-animation-delay:0.6s;">调整产品架构，完善Tcandy的生态布局并启动全球公测。</div>
+                    </li>
+                    <li class="clr">
+                        <div class="fl wow fadeIn" style="-webkit-animation-delay:0.7s;">2019.5<br/>上线B2C商城体系</div>
+                        <div class="fr wow fadeIn" style="-webkit-animation-delay:0.7s;">自营商城的上线将试用糖果淘代币Tcandy作为唯一支付货币，丰富Tcandy应用场景！</div>
+                    </li>
+                    <li class="clr">
+                        <div class="fl wow fadeIn" style="-webkit-animation-delay:0.8s;">2019.11<br/>开放商家入口，完成C2C板块开发</div>
+                        <div class="fr wow fadeIn" style="-webkit-animation-delay:0.8s;">完成产品升级，从单一导购平台升级到集合导购、自营、C2C为一体的区块链电商聚合平台。</div>
+                    </li>
+                    <li class="wow fadeIn" style="-webkit-animation-delay:0.9s;">&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="share clr">
+                <a  class="wow fadeIn" style="-webkit-animation-delay:0.1s;" title="微信">
+                    <img src="m/weixin.png" alt="微信"/>
+                </a>
+                <a href="https://weibo.com/u/6612897220" class="wow fadeIn" style="-webkit-animation-delay:0.2s;" title="微博">
+                    <img src="m/weibo.png" alt="微博"/>
+                </a>
+                <a href="https://twitter.com/TcandyChain" class="wow fadeIn" style="-webkit-animation-delay:0.3s;" title="Twitter">
+                    <img src="m/twitter.png" alt="Twitter"/>
+                </a>
+                <a href="https://www.facebook.com/tcandy.io" class="wow fadeIn" style="-webkit-animation-delay:0.4s;" title="Facebook">
+                    <img src="m/facebook.png" alt="Facebook"/>
+                </a>
+                <a href="https://github.com/TcandyChain" class="wow fadeIn" style="-webkit-animation-delay:0.5s;" title="Github">
+                    <img src="m/github.png" alt="Github"/>
+                </a>
+            </div>
+            <div class="corpright">Tcandy © 2018.Company name All rights reserved.</div>
+        </footer>
+        <div class="loading">
+            <div class="rel">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="mjs/zepto.min.js"></script>
+    <script type="text/javascript" src="mjs/swiper.min.js"></script>
+    <script type="text/javascript" src="mjs/m.js?v=1"></script>
+    <script type="text/javascript" src="mjs/wow.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            new WOW().init();
+            viewport();
+            fixed_tab($('.header'));
+            var w = $(window).width(), w = w > 750 ? 750 : w, width1 = parseInt(w * 58 / 750) - 2, width2 = parseInt(w * 40 / 750) - 2;
+            new Swiper('#apps', {
+                slidesPerView: 3,
+                spaceBetween: width1,
+                slidesPerGroup: 1,
+                loop: false,
+                loopFillGroupWithBlank: true,
+                pagination:{el: '.pagin1', clickable: true},
+                navigation:{nextEl: '.next1', prevEl: '.prev1'},
+                on:{
+                    slideChangeTransitionStart: function(e){
+                        var idx = parseInt(this.activeIndex) + 1, app = $('#app'+ idx), title = app.data('title') || '', desc = app.data('desc') || '';
+                        var obj = $('.detail'), h3 = obj.find('h3'), span = obj.find('span');
+                        var len = parseInt($('.apps').length) - 2;
+                        app.addClass('on').siblings().removeClass('on');
+                        h3.text(title);
+                        span.text(desc);
+                        if(idx == 1){
+                            $('.prev').addClass('disabled');
+                        }else if(idx == len){
+                            $('.next').addClass('disabled');
+                        }else{
+                            $('.prev,.next').removeClass('disabled');
+                        }
+                    }
+                }
+            });
+            new Swiper('#teams', {
+                slidesPerView: 2,
+                spaceBetween: width2,
+                slidesPerGroup: 2,
+                loop: false,
+                loopFillGroupWithBlank: true,
+                pagination:{el: '.pagin2', clickable: true},
+            });
+            $('.loading').hide();
+        });
+    </script>
+    <SCRIPT LANGUAGE="JavaScript">
+    function showPict(id){
+    document.getElementById(id).style.display = "block";
+    }
+    function hidPict(id){
+    document.getElementById(id).style.display = "none";
+    }
+    </SCRIPT>
+</body>
+</html>
